@@ -15,6 +15,9 @@
 		363FA6471C51554C00F6E99C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363FA6451C51554C00F6E99C /* LaunchScreen.storyboard */; };
 		363FA6521C51554C00F6E99C /* TopTenLibrariesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363FA6511C51554C00F6E99C /* TopTenLibrariesTests.swift */; };
 		363FA65D1C51554D00F6E99C /* TopTenLibrariesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363FA65C1C51554D00F6E99C /* TopTenLibrariesUITests.swift */; };
+		363FA6741C515D9300F6E99C /* UserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363FA6731C515D9300F6E99C /* UserProvider.swift */; };
+		363FA67F1C515FD100F6E99C /* UserProviderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363FA67E1C515FD100F6E99C /* UserProviderTest.swift */; };
+		3DC69812507DAE33376C2292 /* Pods_TopTenLibraries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C4BAB6D7F40A44D7179981 /* Pods_TopTenLibraries.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,18 +40,23 @@
 /* Begin PBXFileReference section */
 		363FA6361C51554C00F6E99C /* TopTenLibraries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopTenLibraries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		363FA6391C51554C00F6E99C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		363FA63B1C51554C00F6E99C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		363FA63B1C51554C00F6E99C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		363FA63E1C51554C00F6E99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		363FA6411C51554C00F6E99C /* TopTenLibraries.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TopTenLibraries.xcdatamodel; sourceTree = "<group>"; };
-		363FA6431C51554C00F6E99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		363FA6431C51554C00F6E99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		363FA6461C51554C00F6E99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		363FA6481C51554C00F6E99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363FA6481C51554C00F6E99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		363FA64D1C51554C00F6E99C /* TopTenLibrariesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopTenLibrariesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		363FA6511C51554C00F6E99C /* TopTenLibrariesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTenLibrariesTests.swift; sourceTree = "<group>"; };
 		363FA6531C51554C00F6E99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		363FA6581C51554C00F6E99C /* TopTenLibrariesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopTenLibrariesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		363FA65C1C51554D00F6E99C /* TopTenLibrariesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTenLibrariesUITests.swift; sourceTree = "<group>"; };
 		363FA65E1C51554D00F6E99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363FA6731C515D9300F6E99C /* UserProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProvider.swift; sourceTree = "<group>"; };
+		363FA67E1C515FD100F6E99C /* UserProviderTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProviderTest.swift; sourceTree = "<group>"; };
+		7C4CD4508D75E60FE30395AE /* Pods-TopTenLibraries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopTenLibraries.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopTenLibraries/Pods-TopTenLibraries.release.xcconfig"; sourceTree = "<group>"; };
+		A4C4BAB6D7F40A44D7179981 /* Pods_TopTenLibraries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopTenLibraries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8BD6889F65F1098667B46EC /* Pods-TopTenLibraries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopTenLibraries.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopTenLibraries/Pods-TopTenLibraries.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC69812507DAE33376C2292 /* Pods_TopTenLibraries.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +92,8 @@
 				363FA6501C51554C00F6E99C /* TopTenLibrariesTests */,
 				363FA65B1C51554D00F6E99C /* TopTenLibrariesUITests */,
 				363FA6371C51554C00F6E99C /* Products */,
+				7FA6960BA450F70EBED92246 /* Pods */,
+				B0C447DFBB4CACFC729813FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +111,15 @@
 			isa = PBXGroup;
 			children = (
 				363FA6391C51554C00F6E99C /* AppDelegate.swift */,
-				363FA63B1C51554C00F6E99C /* ViewController.swift */,
-				363FA63D1C51554C00F6E99C /* Main.storyboard */,
-				363FA6431C51554C00F6E99C /* Assets.xcassets */,
-				363FA6451C51554C00F6E99C /* LaunchScreen.storyboard */,
-				363FA6481C51554C00F6E99C /* Info.plist */,
-				363FA6401C51554C00F6E99C /* TopTenLibraries.xcdatamodeld */,
+				363FA66A1C5155CA00F6E99C /* Controllers */,
+				363FA66B1C5155CA00F6E99C /* Extensions */,
+				363FA66C1C5155CA00F6E99C /* Models */,
+				363FA66D1C5155CA00F6E99C /* Protocols */,
+				363FA66E1C5155CA00F6E99C /* Providers */,
+				363FA66F1C5155CA00F6E99C /* Resources */,
+				363FA6701C5155CA00F6E99C /* Storyboards */,
+				363FA6711C5155CA00F6E99C /* ThirdParty */,
+				363FA6721C5155CA00F6E99C /* Views */,
 			);
 			path = TopTenLibraries;
 			sourceTree = "<group>";
@@ -113,6 +127,15 @@
 		363FA6501C51554C00F6E99C /* TopTenLibrariesTests */ = {
 			isa = PBXGroup;
 			children = (
+				363FA6751C515FB500F6E99C /* Controllers */,
+				363FA6761C515FB500F6E99C /* Extensions */,
+				363FA6771C515FB500F6E99C /* Models */,
+				363FA6781C515FB500F6E99C /* Protocols */,
+				363FA6791C515FB500F6E99C /* Providers */,
+				363FA67A1C515FB500F6E99C /* Resources */,
+				363FA67B1C515FB500F6E99C /* Storyboards */,
+				363FA67C1C515FB500F6E99C /* ThirdParty */,
+				363FA67D1C515FB500F6E99C /* Views */,
 				363FA6511C51554C00F6E99C /* TopTenLibrariesTests.swift */,
 				363FA6531C51554C00F6E99C /* Info.plist */,
 			);
@@ -128,6 +151,157 @@
 			path = TopTenLibrariesUITests;
 			sourceTree = "<group>";
 		};
+		363FA66A1C5155CA00F6E99C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				363FA63B1C51554C00F6E99C /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		363FA66B1C5155CA00F6E99C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		363FA66C1C5155CA00F6E99C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		363FA66D1C5155CA00F6E99C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		363FA66E1C5155CA00F6E99C /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				363FA6731C515D9300F6E99C /* UserProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		363FA66F1C5155CA00F6E99C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				363FA6431C51554C00F6E99C /* Assets.xcassets */,
+				363FA6481C51554C00F6E99C /* Info.plist */,
+				363FA6401C51554C00F6E99C /* TopTenLibraries.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		363FA6701C5155CA00F6E99C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				363FA63D1C51554C00F6E99C /* Main.storyboard */,
+				363FA6451C51554C00F6E99C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		363FA6711C5155CA00F6E99C /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		363FA6721C5155CA00F6E99C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		363FA6751C515FB500F6E99C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		363FA6761C515FB500F6E99C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		363FA6771C515FB500F6E99C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		363FA6781C515FB500F6E99C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		363FA6791C515FB500F6E99C /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				363FA67E1C515FD100F6E99C /* UserProviderTest.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		363FA67A1C515FB500F6E99C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		363FA67B1C515FB500F6E99C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		363FA67C1C515FB500F6E99C /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		363FA67D1C515FB500F6E99C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7FA6960BA450F70EBED92246 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8BD6889F65F1098667B46EC /* Pods-TopTenLibraries.debug.xcconfig */,
+				7C4CD4508D75E60FE30395AE /* Pods-TopTenLibraries.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0C447DFBB4CACFC729813FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4C4BAB6D7F40A44D7179981 /* Pods_TopTenLibraries.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +309,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 363FA6611C51554D00F6E99C /* Build configuration list for PBXNativeTarget "TopTenLibraries" */;
 			buildPhases = (
+				A7DD7F3FD37FE53A3A0AEFF6 /* Check Pods Manifest.lock */,
 				363FA6321C51554C00F6E99C /* Sources */,
 				363FA6331C51554C00F6E99C /* Frameworks */,
 				363FA6341C51554C00F6E99C /* Resources */,
+				7721E7006CF7511148B80026 /* Embed Pods Frameworks */,
+				0ADDEE428CA1C77504668AF1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +431,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ADDEE428CA1C77504668AF1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopTenLibraries/Pods-TopTenLibraries-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7721E7006CF7511148B80026 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopTenLibraries/Pods-TopTenLibraries-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7DD7F3FD37FE53A3A0AEFF6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		363FA6321C51554C00F6E99C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -262,6 +487,7 @@
 				363FA63C1C51554C00F6E99C /* ViewController.swift in Sources */,
 				363FA63A1C51554C00F6E99C /* AppDelegate.swift in Sources */,
 				363FA6421C51554C00F6E99C /* TopTenLibraries.xcdatamodeld in Sources */,
+				363FA6741C515D9300F6E99C /* UserProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +496,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				363FA6521C51554C00F6E99C /* TopTenLibrariesTests.swift in Sources */,
+				363FA67F1C515FD100F6E99C /* UserProviderTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +530,7 @@
 				363FA63E1C51554C00F6E99C /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		363FA6451C51554C00F6E99C /* LaunchScreen.storyboard */ = {
@@ -311,6 +539,7 @@
 				363FA6461C51554C00F6E99C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -401,6 +630,7 @@
 		};
 		363FA6621C51554D00F6E99C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8BD6889F65F1098667B46EC /* Pods-TopTenLibraries.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TopTenLibraries/Info.plist;
@@ -412,6 +642,7 @@
 		};
 		363FA6631C51554D00F6E99C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4CD4508D75E60FE30395AE /* Pods-TopTenLibraries.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TopTenLibraries/Info.plist;
@@ -488,6 +719,7 @@
 				363FA6631C51554D00F6E99C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		363FA6641C51554D00F6E99C /* Build configuration list for PBXNativeTarget "TopTenLibrariesTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +728,7 @@
 				363FA6661C51554D00F6E99C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		363FA6671C51554D00F6E99C /* Build configuration list for PBXNativeTarget "TopTenLibrariesUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +737,7 @@
 				363FA6691C51554D00F6E99C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -514,7 +748,8 @@
 				363FA6411C51554C00F6E99C /* TopTenLibraries.xcdatamodel */,
 			);
 			currentVersion = 363FA6411C51554C00F6E99C /* TopTenLibraries.xcdatamodel */;
-			path = TopTenLibraries.xcdatamodeld;
+			name = TopTenLibraries.xcdatamodeld;
+			path = ../TopTenLibraries.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
