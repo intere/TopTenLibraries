@@ -16,26 +16,21 @@ class User {
     var phone: String!
     var website: String!
     
-    static func fromJsonData(jsonData: NSData?) -> [User]? {
-        if let jsonData = jsonData {
-            let json = JSON(data: jsonData)
-            var users = [User]()
+    static func fromJsonData(json: JSON) -> [User] {
+        var users = [User]()
             
-            if let usersJson = json.array {
-                for userJson in usersJson {
-                    let user = User()
-                    user.id = userJson["id"].int ?? -1
-                    user.name = userJson["name"].string ?? ""
-                    user.email = userJson["email"].string ?? ""
-                    user.phone = userJson["phone"].string ?? ""
-                    user.website = userJson["website"].string ?? ""
-                    
-                    users.append(user)
-                }
+        if let usersJson = json.array {
+            for userJson in usersJson {
+                let user = User()
+                user.id = userJson["id"].int ?? -1
+                user.name = userJson["name"].string ?? ""
+                user.email = userJson["email"].string ?? ""
+                user.phone = userJson["phone"].string ?? ""
+                user.website = userJson["website"].string ?? ""
+                
+                users.append(user)
             }
-            
-            return users
         }
-        return nil
+        return users
     }
 }

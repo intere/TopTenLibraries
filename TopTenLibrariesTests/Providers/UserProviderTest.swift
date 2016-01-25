@@ -7,6 +7,7 @@
 //
 
 @testable import TopTenLibraries
+import SwiftyJSON
 import XCTest
 
 class UserProviderTest: XCTestCase {
@@ -14,10 +15,12 @@ class UserProviderTest: XCTestCase {
     func testLoadUsers() {
         let expectation = expectationWithDescription("User Load")
         
-        UserProvider.instance.loadUsers() { (data, error) -> (Void) in
-            XCTAssertNotNil(data, "The data was nil")
+        UserProvider.instance.loadUsers() { (json, error) -> (Void) in
+            XCTAssertNotNil(json, "The data was nil")
             XCTAssertNil(error, "The error was not nil: \(error)")
-            if let data = data, users = User.fromJsonData(data) {
+            if let json = json {
+                let users = User.fromJsonData(json)
+                
                 XCTAssertTrue(users.count > 0, "We didn't get any users back")
                 for user in users {
                     XCTAssertNotEqual(-1, user.id, "Incorrect ID")
